@@ -19,9 +19,13 @@ class CodeRequest(BaseModel):
 
 from dotenv import load_dotenv
 import os
+from pathlib import Path
 from groq_service import analyze_with_groq, optimize_code_with_groq
 
-load_dotenv()
+# Load .env from the root directory (one level up from backend)
+env_path = Path(__file__).resolve().parent.parent / '.env'
+load_dotenv(dotenv_path=env_path)
+
 print(f"DEBUG: Groq API Key found: {bool(os.getenv('GROQ_API_KEY'))}")
 
 @app.post("/analyze")
