@@ -23,7 +23,7 @@ const LandingPage = () => {
                     </span>
                 </div>
                 <div>
-                    <a href="https://github.com/yourusername/code-complexity-visualizer" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">
+                    <a href="https://github.com/Deepanshu8560/code-complexity-visualizer" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">
                         GitHub
                     </a>
                 </div>
