@@ -1,6 +1,5 @@
 # 🚀 Code Complexity Visualizer
-
-![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Python](https://img.shields.io/badge/python-3.9+-blue.svg) ![React](https://img.shields.io/badge/react-18+-61DAFB.svg) ![Groq](https://img.shields.io/badge/AI-Groq-orange)
+ ![Python](https://img.shields.io/badge/python-3.9+-blue.svg) ![React](https://img.shields.io/badge/react-18+-61DAFB.svg) ![Groq](https://img.shields.io/badge/AI-Groq-orange)
 
 A powerful, real-time code analysis tool that visualizes Time and Space complexity while providing AI-driven optimization suggestions. Built with modern web technologies and powered by the **Groq AI** engine (Llama 3.1).
 
