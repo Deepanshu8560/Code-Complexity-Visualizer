@@ -47,9 +47,9 @@ const LandingPage = () => {
                         <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                         <div className="absolute inset-0 rounded-full ring-2 ring-white/20 group-hover:ring-white/40 transition-all"></div>
                     </Link>
-                    <button className="px-8 py-4 text-lg font-medium text-gray-300 hover:text-white transition-colors">
+                    <Link to="/docs" className="px-8 py-4 text-lg font-medium text-gray-300 hover:text-white transition-colors">
                         View Documentation
-                    </button>
+                    </Link>
                 </div>
             </header>
 
